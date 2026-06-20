@@ -1,0 +1,10 @@
+
+    SIZE 50 mm,30 mm
+    GAP 2 mm,0 mm
+    DENSITY 8
+    SPEED 4
+    CLS
+    TEXT 40,20,"3",0,1,1,"Item A ₹100"
+    BARCODE 40,60,"128",80,1,0,2,2,"123456789012"
+    PRINT 1
+  

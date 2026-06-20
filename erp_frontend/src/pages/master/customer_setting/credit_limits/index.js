@@ -1,0 +1,128 @@
+import { Link } from "react-router-dom";
+import * as React from "react";
+import axios from "../../../../axios";
+import { useState } from "react";
+import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
+import DashboardNavbar from "examples/Navbars/DashboardNavbar";
+
+// @mui material components
+import Card from "@mui/material/Card";
+import Grid from "@mui/material/Grid";
+import PropTypes from "prop-types";
+import Radio from "@mui/material/Radio";
+import RadioGroup, { useRadioGroup } from "@mui/material/RadioGroup";
+import FormControlLabel from "@mui/material/FormControlLabel";
+import { styled } from "@mui/material/styles";
+
+// Material Dashboard 2 React components
+import MDButton from "components/MDButton";
+import MDBox from "components/MDBox";
+import MDTypography from "components/MDTypography";
+import MDInput from "components/MDInput";
+
+const StyledFormControlLabel = styled((props) => <FormControlLabel {...props} />)(
+  ({ theme, checked }) => ({
+    ".MuiFormControlLabel-label":
+      checked &&
+      {
+        //   color: theme.palette.primary.main,
+      },
+  })
+);
+
+function MyFormControlLabel(props) {
+  const radioGroup = useRadioGroup();
+  let checked = false;
+  if (radioGroup) {
+    checked = radioGroup.value === props.value;
+  }
+  return <StyledFormControlLabel checked={checked} {...props} />;
+}
+
+MyFormControlLabel.propTypes = {
+  /**
+   * The value of the component.
+   */
+  value: PropTypes.any,
+};
+
+function Credit_Limits() {
+  const [selectedValue, setSelectedValue] = useState("");
+  const handleRadioChange = (event) => {
+    setSelectedValue(event.target.value);
+  };
+
+  const handleInsert = () => {
+    const data = {
+      value: selectedValue,
+    };
+
+    axios
+      .post("credit-limit-option/add", data)
+      .then((response) => {
+        console.log("Data inserted successfully:", response.data);
+      })
+      .catch((error) => {
+        console.error("Error inserting data:", error);
+      });
+  };
+
+  return (
+    <DashboardLayout>
+      <DashboardNavbar />
+      <MDBox pt={6} pb={3}>
+        <Grid container spacing={6} justifyContent="center">
+          <Grid item xs={9}>
+            <Card>
+              <MDBox
+                mx={2}
+                mt={-3}
+                py={3}
+                px={2}
+                variant="gradient"
+                bgColor="info"
+                borderRadius="lg"
+                coloredShadow="info"
+              >
+                <MDTypography variant="h6" color="white">
+                  {/* <Icon fontSize="small">account_balance</Icon> */}
+                  Credit Limits
+                </MDTypography>
+              </MDBox>
+              <MDBox pt={4} pb={3} px={3}>
+                <MDBox component="form" role="form">
+                  <MDBox pb={2}>
+                    <RadioGroup
+                      name="use-radio-group"
+                      defaultValue="second"
+                      value={selectedValue}
+                      onChange={handleRadioChange}
+                    >
+                      <MyFormControlLabel
+                        value="first"
+                        label="Customer Based Limit"
+                        control={<Radio />}
+                      />
+                      <MyFormControlLabel
+                        value="second"
+                        label="Line Of Business"
+                        control={<Radio />}
+                      />
+                    </RadioGroup>
+                  </MDBox>
+                  <MDBox>
+                    <MDButton variant="gradient" onClick={handleInsert} color="info">
+                      Save
+                    </MDButton>
+                  </MDBox>
+                </MDBox>
+              </MDBox>
+            </Card>
+          </Grid>
+        </Grid>
+      </MDBox>
+    </DashboardLayout>
+  );
+}
+
+export default Credit_Limits;

@@ -1,0 +1,8 @@
+@import "tailwindcss";
+/* This imports Tailwind automatically through Vite plugin */
+/* @import "@tailwindcss/vite/tailwind.css";
+ */
+/* @import "@tailwindcss/vite/tailwind.css"; */
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */

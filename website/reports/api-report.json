@@ -1,0 +1,81 @@
+{
+  "apis": [
+    {
+      "number": 1,
+      "category": "Order",
+      "method": "POST",
+      "endpoint": "https://api.jtserp.cloud/api/order/list",
+      "kind": "External"
+    },
+    {
+      "number": 4,
+      "category": "Order",
+      "method": "GET",
+      "endpoint": "<baseURL>/order-status/list",
+      "kind": "Internal"
+    },
+    {
+      "number": 5,
+      "category": "Order",
+      "method": "POST",
+      "endpoint": "<baseURL>/order/ecommerce_orders/by-customer",
+      "kind": "Internal"
+    },
+    {
+      "number": 6,
+      "category": "Order",
+      "method": "POST",
+      "endpoint": "<baseURL>/order/ecommerce_orders/details",
+      "kind": "Internal"
+    },
+    {
+      "number": 7,
+      "category": "Order",
+      "method": "POST",
+      "endpoint": "<baseURL>/order/ecommerce/order-add",
+      "kind": "Internal"
+    },
+    {
+      "number": 10,
+      "category": "Order",
+      "method": "GET",
+      "endpoint": "<baseURL>/order/ecommerce/pending/${txnid}",
+      "kind": "Internal"
+    },
+    {
+      "number": 11,
+      "category": "Order",
+      "method": "POST",
+      "endpoint": "<baseURL>/order/ecommerce/pending/create",
+      "kind": "Internal"
+    },
+    {
+      "number": 12,
+      "category": "Payment",
+      "method": "POST",
+      "endpoint": "<baseURL>/payment/generate-hash",
+      "kind": "Internal"
+    },
+    {
+      "number": 13,
+      "category": "Payment",
+      "method": "GET",
+      "endpoint": "<baseURL>/payment/payu-details/${txnid}",
+      "kind": "Internal"
+    },
+    {
+      "number": 14,
+      "category": "Payment",
+      "method": "POST",
+      "endpoint": "<baseURL>/razorpay/create-order",
+      "kind": "Internal"
+    },
+    {
+      "number": 15,
+      "category": "Payment",
+      "method": "POST",
+      "endpoint": "<baseURL>/razorpay/verify-payment",
+      "kind": "Internal"
+    }
+  ]
+}

@@ -1,0 +1,1291 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 7391
+>>
+stream
+0.200025 w
+0 G
+BT
+/F2 20 Tf
+23. TL
+0 g
+48. 793.8899999999999864 Td
+(Payment and Payment-Related API Document) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 763.8899999999999864 Td
+(Project: islamic_book) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 745.8899999999999864 Td
+(Generated on: 2026-04-29) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 727.8899999999999864 Td
+(Active base URL: http://localhost:5610/api) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 709.8899999999999864 Td
+(Other configured base URLs: https://api.jtserp.cloud/api, https://api.islamicbookzone.com/api) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0 g
+48. 683.8899999999999864 Td
+(Direct Payment APIs) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 661.8899999999999864 Td
+(POST /payment/generate-hash) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 643.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 643.8899999999999864 Td
+(Purpose: Starts the PayU payment flow by generating the hash and redirect form fields.) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 627.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 627.8899999999999864 Td
+(Auth: Bearer token sent from frontend.) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 611.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 611.8899999999999864 Td
+(Request fields: amount, firstname, email, phone, txnid, source) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 595.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 595.8899999999999864 Td
+(Response fields used: action, PayU form fields returned by backend) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 579.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 579.8899999999999864 Td
+(Used in: src/components/Payments/payU.js) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 559.8899999999999864 Td
+(GET /payment/payu-details/{txnid}) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 541.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 541.8899999999999864 Td
+(Purpose: Fetches PayU transaction details after the user returns from the gateway.) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 525.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 525.8899999999999864 Td
+(Auth: Not explicit in frontend call.) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 509.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 509.8899999999999864 Td
+(Request fields: txnid path parameter) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 493.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 493.8899999999999864 Td
+(Response fields used: mihpayid, mode, status, unmappedstatus, key, txnid, amount, cardCategory,) Tj
+T* (discount, net_amount_debit, addedon, productinfo, firstname, email, phone, hash, field1-field9,) Tj
+T* (payment_source, PG_TYPE, bank_ref_num, bankcode, error, error_Message, cardnum) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 449.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 449.8899999999999864 Td
+(Used in: src/components/Payments/PayUOrderHandler.jsx; src/Pages/PayUOrderHandlerPOS.jsx) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 429.8899999999999864 Td
+(POST /razorpay/create-order) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 411.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 411.8899999999999864 Td
+(Purpose: Creates a Razorpay order before opening the Razorpay checkout widget.) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 395.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 395.8899999999999864 Td
+(Auth: Not explicit in frontend call.) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 379.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 379.8899999999999864 Td
+(Request fields: amount) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 363.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 363.8899999999999864 Td
+(Response fields used: order.id, order.amount, order.currency, order.receipt) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 347.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 347.8899999999999864 Td
+(Used in: src/components/Payments/RazorpayPayment.jsx; src/Pages/Cart.jsx) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 327.8899999999999864 Td
+(POST /razorpay/verify-payment) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 309.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 309.8899999999999864 Td
+(Purpose: Verifies the Razorpay payment signature after checkout succeeds.) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 293.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 293.8899999999999864 Td
+(Auth: Not explicit in frontend call.) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 277.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 277.8899999999999864 Td
+(Request fields: razorpay_payment_id, razorpay_order_id, razorpay_signature, receipt, verified_at) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 261.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 261.8899999999999864 Td
+(Response fields used: success) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 245.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 245.8899999999999864 Td
+(Used in: src/components/Payments/RazorpayPayment.jsx; src/Pages/Cart.jsx) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0 g
+48. 225.8899999999999864 Td
+(Payment Flow Support APIs) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 203.8899999999999864 Td
+(POST /order/ecommerce/pending/create) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 185.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 185.8899999999999864 Td
+(Purpose: Stores a pending order before redirecting to the PayU gateway.) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 169.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 169.8899999999999864 Td
+(Auth: Uses API client with credentials in some flows.) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 153.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 153.8899999999999864 Td
+(Request fields: payload) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 137.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 137.8899999999999864 Td
+(Response fields used: txnid) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 121.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 121.8899999999999864 Td
+(Used in: src/Pages/Checkout.jsx; src/Pages/Cart.jsx; src/Pages/PaymentTest.jsx) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 101.8899999999999864 Td
+(GET /order/ecommerce/pending/{txnid}) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 83.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 83.8899999999999864 Td
+(Purpose: Loads the pending order payload after PayU redirects the user back.) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 67.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 67.8899999999999864 Td
+(Auth: Uses API client.) Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 7257
+>>
+stream
+0.200025 w
+0 G
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 793.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 793.8899999999999864 Td
+(Request fields: txnid path parameter) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 777.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 777.8899999999999864 Td
+(Response fields used: success, data.payload) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 761.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 761.8899999999999864 Td
+(Used in: src/components/Payments/PayUOrderHandler.jsx; src/Pages/PayUOrderHandlerPOS.jsx) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 741.8899999999999864 Td
+(POST /order/ecommerce/order-add) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 723.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 723.8899999999999864 Td
+(Purpose: Creates the final order for COD, PayU, and Razorpay flows.) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 707.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 707.8899999999999864 Td
+(Auth: Uses API client or axios depending on page.) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 691.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 691.8899999999999864 Td
+(Request fields: customer_id, payment_terms, payment_details, transaction_type, shipping_address,) Tj
+T* (billing_address, items) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 661.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 661.8899999999999864 Td
+(Response fields used: status, order_id and order data depending on flow) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 645.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 645.8899999999999864 Td
+(Used in: src/Pages/Cart.jsx; src/Pages/Payment.jsx; src/Pages/PaymentTest.jsx;) Tj
+T* (src/components/Payments/PayUOrderHandler.jsx; src/Pages/PayUOrderHandlerPOS.jsx) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0 g
+48. 611.8899999999999864 Td
+(Order, Invoice, and Return APIs Related to Payments) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 589.8899999999999864 Td
+(POST /order/ecommerce_orders/by-customer) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 571.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 571.8899999999999864 Td
+(Purpose: Fetches customer order history, including paid orders.) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 555.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 555.8899999999999864 Td
+(Used in: src/Pages/Accounts.jsx; src/Pages/OrderSuccess.jsx;) Tj
+T* (src/components/SendOrderStatusMail.jsx) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 521.8899999999999864 Td
+(POST /order/ecommerce_orders/details) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 503.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 503.8899999999999864 Td
+(Purpose: Fetches detailed order information for review and tracking.) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 487.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 487.8899999999999864 Td
+(Used in: src/Pages/DeliveryTracking.jsx; src/Pages/OrderReview.jsx) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 467.8899999999999864 Td
+(POST /order/ecommerce/order-cancel) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 449.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 449.8899999999999864 Td
+(Purpose: Cancels an existing order.) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 433.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 433.8899999999999864 Td
+(Used in: src/Pages/CancelOrder.jsx) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 413.8899999999999864 Td
+(POST /order/ecommerce/order-exchange) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 395.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 395.8899999999999864 Td
+(Purpose: Submits an order exchange request.) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 379.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 379.8899999999999864 Td
+(Used in: src/Pages/ExchangeOrder.jsx) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 359.8899999999999864 Td
+(GET /order-status/list) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 341.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 341.8899999999999864 Td
+(Purpose: Fetches available order statuses used by order tracking and account views.) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 325.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 325.8899999999999864 Td
+(Used in: src/Pages/Accounts.jsx; src/Pages/DeliveryTracking.jsx) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 305.8899999999999864 Td
+(GET /order-action-reason-mapping/findAll) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 287.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 287.8899999999999864 Td
+(Purpose: Fetches allowed cancel and return reasons.) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 271.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 271.8899999999999864 Td
+(Used in: src/Pages/CancelOrder.jsx; src/Pages/ReturnOrder.jsx) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 251.8899999999999864 Td
+(POST /invoice/details) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 233.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 233.8899999999999864 Td
+(Purpose: Fetches invoice details connected to completed orders and payment state.) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 217.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 217.8899999999999864 Td
+(Used in: src/utils/invoiceUtils.jsx; src/Pages/OrderReview.jsx) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 197.8899999999999864 Td
+(POST /invoice/ecommerce/ecom_return) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 179.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 179.8899999999999864 Td
+(Purpose: Submits ecommerce return requests tied to invoices and completed orders.) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 163.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 163.8899999999999864 Td
+(Used in: src/Pages/ReturnOrder.jsx) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0 g
+48. 143.8899999999999864 Td
+(Source References) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 121.8899999999999864 Td
+(Primary references used for this document:) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 103.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 103.8899999999999864 Td
+(src/components/Payments/payU.js) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 87.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 87.8899999999999864 Td
+(src/components/Payments/PayUOrderHandler.jsx) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 71.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 71.8899999999999864 Td
+(src/components/Payments/RazorpayPayment.jsx) Tj
+ET
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 1079
+>>
+stream
+0.200025 w
+0 G
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 793.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 793.8899999999999864 Td
+(src/Pages/PayUOrderHandlerPOS.jsx) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 777.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 777.8899999999999864 Td
+(src/Pages/Cart.jsx) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 761.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 761.8899999999999864 Td
+(src/Pages/Checkout.jsx) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 745.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 745.8899999999999864 Td
+(src/Pages/Payment.jsx) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 729.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 729.8899999999999864 Td
+(src/constantApi.js) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+48. 713.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+60. 713.8899999999999864 Td
+(reports/api-report.json) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R ]
+/Count 3
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+19 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+20 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+21 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+22 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 9 0 R
+/F2 10 0 R
+/F3 11 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+/F7 15 0 R
+/F8 16 0 R
+/F9 17 0 R
+/F10 18 0 R
+/F11 19 0 R
+/F12 20 0 R
+/F13 21 0 R
+/F14 22 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+23 0 obj
+<<
+/Producer (jsPDF 4.0.0)
+/CreationDate (D:20260429212429+05'30')
+>>
+endobj
+24 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 25
+0000000000 65535 f 
+0000016309 00000 n 
+0000018142 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000007595 00000 n 
+0000007732 00000 n 
+0000015041 00000 n 
+0000015178 00000 n 
+0000016378 00000 n 
+0000016503 00000 n 
+0000016634 00000 n 
+0000016768 00000 n 
+0000016906 00000 n 
+0000017030 00000 n 
+0000017159 00000 n 
+0000017291 00000 n 
+0000017427 00000 n 
+0000017555 00000 n 
+0000017682 00000 n 
+0000017811 00000 n 
+0000017944 00000 n 
+0000018046 00000 n 
+0000018394 00000 n 
+0000018480 00000 n 
+trailer
+<<
+/Size 25
+/Root 24 0 R
+/Info 23 0 R
+/ID [ <C89ECB38EDD752B24079E68B8214FAA9> <C89ECB38EDD752B24079E68B8214FAA9> ]
+>>
+startxref
+18584
+%%EOF

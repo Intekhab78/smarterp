@@ -1,0 +1,24 @@
+@page {
+  size: 30mm 20mm;
+  margin: 0;
+}
+
+html, body {
+  width: 30mm;
+  height: 20mm;
+  margin: 0;
+  padding: 0;
+}
+
+.label {
+  width: 30mm;
+  height: 20mm;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+svg {
+  width: 100%;
+  height: auto;
+}

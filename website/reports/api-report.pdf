@@ -1,0 +1,1041 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 4765
+>>
+stream
+0.200025 w
+0 G
+BT
+/F2 18 Tf
+20.6999999999999993 TL
+0 g
+40. 801.8899999999999864 Td
+(Project API Usage Report) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+40. 777.8899999999999864 Td
+(Project: islamic_book) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+40. 763.8899999999999864 Td
+(Generated: 29/4/2026, 8:35:26 pm) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+40. 749.8899999999999864 Td
+(Active base API URL: http://192.168.29.183:5610/api) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+40. 735.8899999999999864 Td
+(Active image URL: http://localhost:5610) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+40. 721.8899999999999864 Td
+(Axios helper base URL: http://localhost:5610/api) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+40. 707.8899999999999864 Td
+(Total unique API entries found: 51) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 685.8899999999999864 Td
+(1. [External] POST https://api.jtserp.cloud/api/order/list) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 669.8899999999999864 Td
+(Used in: src/Pages/OrderList.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 652.8899999999999864 Td
+(2. [External] POST https://countriesnow.space/api/v0.1/countries/state/cities) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 636.8899999999999864 Td
+(Used in: src/Pages/GuestCheckout.jsx, src/Pages/ShippingAddressList.jsx, src/Pages/UserRegistration.jsx,) Tj
+T* (src/components/ShippingAddress.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 606.8899999999999864 Td
+(3. [External] POST https://countriesnow.space/api/v0.1/countries/states) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 590.8899999999999864 Td
+(Used in: src/Pages/GuestCheckout.jsx, src/Pages/ShippingAddressList.jsx, src/Pages/UserRegistration.jsx,) Tj
+T* (src/components/ShippingAddress.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 560.8899999999999864 Td
+(4. [External] GET https://nominatim.openstreetmap.org/reverse) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 544.8899999999999864 Td
+(Used in: src/components/Nav.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 527.8899999999999864 Td
+(5. [External] GET https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lo) Tj
+T* (n=${lon}&zoom=18&addressdetails=1) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 495.8899999999999864 Td
+(Used in: src/components/ShippingAddress.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 478.8899999999999864 Td
+(6. [External] GET) Tj
+T* (https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=${lat}&lon=${lon}) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 446.8899999999999864 Td
+(Used in: src/Pages/Cart.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 429.8899999999999864 Td
+(7. [Internal] GET /api/orders/${id}) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 413.8899999999999864 Td
+(Used in: src/Pages/ReturnOrder.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 396.8899999999999864 Td
+(8. [Internal] POST <baseURL>/brand/list) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 380.8899999999999864 Td
+(Used in: src/Pages/Shop.jsx, src/components/ShopByCategory.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 363.8899999999999864 Td
+(9. [Internal] GET <baseURL>/cart) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 347.8899999999999864 Td
+(Used in: src/CartContext/CartContext.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 330.8899999999999864 Td
+(10. [Internal] POST <baseURL>/company/details) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 314.8899999999999864 Td
+(Used in: src/Pages/ContactUs.jsx, src/Pages/OrderReview.jsx, src/Pages/ThermalInvoice.jsx,) Tj
+T* (src/utils/invoiceUtils.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 284.8899999999999864 Td
+(11. [Internal] POST <baseURL>/customer/customer_login) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 268.8899999999999864 Td
+(Used in: src/Pages/Login.jsx, src/Pages/PaymentTest.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 251.8899999999999864 Td
+(12. [Internal] POST <baseURL>/customer/customer_logout) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 235.8899999999999864 Td
+(Used in: src/CartContext/AuthContext.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 218.8899999999999864 Td
+(13. [Internal] POST <baseURL>/customer/customer_pass_update) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 202.8899999999999864 Td
+(Used in: src/Pages/Accounts.jsx, src/Pages/UpdatePassword.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 185.8899999999999864 Td
+(14. [Internal] GET <baseURL>/customer/list) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 169.8899999999999864 Td
+(Used in: src/Pages/Accounts.jsx, src/Pages/ResetPassword.jsx, src/utils/invoiceUtils.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 152.8899999999999864 Td
+(15. [Internal] POST <baseURL>/customer/list) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 136.8899999999999864 Td
+(Used in: src/components/CustomerDetails.jsx) Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 5295
+>>
+stream
+0.200025 w
+0 G
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 801.8899999999999864 Td
+(16. [Internal] POST <baseURL>/customer/logout) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 785.8899999999999864 Td
+(Used in: src/CartContext/AuthContext.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 768.8899999999999864 Td
+(17. [Internal] GET <baseURL>/customer/me) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 752.8899999999999864 Td
+(Used in: src/CartContext/AuthContext.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 735.8899999999999864 Td
+(18. [Internal] POST <baseURL>/customer/online_cust_reg_login) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 719.8899999999999864 Td
+(Used in: src/Pages/GuestCheckout.jsx, src/Pages/UserRegistration.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 702.8899999999999864 Td
+(19. [Internal] POST <baseURL>/customer/update) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 686.8899999999999864 Td
+(Used in: src/Pages/Accounts.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 669.8899999999999864 Td
+(20. [Internal] GET <baseURL>/ecom-home-section-item/list) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 653.8899999999999864 Td
+(Used in: src/components/LandingPage.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 636.8899999999999864 Td
+(21. [Internal] GET <baseURL>/ecom-home-section/list) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 620.8899999999999864 Td
+(Used in: src/components/LandingPage.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 603.8899999999999864 Td
+(22. [Internal] GET <baseURL>/ecomBanner/list) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 587.8899999999999864 Td
+(Used in: src/components/Bottom-Banner.jsx, src/components/LandingPage.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 570.8899999999999864 Td
+(23. [Internal] POST <baseURL>/family_master/filtered_list_by_key) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 554.8899999999999864 Td
+(Used in: src/components/Nav.jsx, src/components/SidebarFilters.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 537.8899999999999864 Td
+(24. [Internal] POST <baseURL>/invoice/details) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 521.8899999999999864 Td
+(Used in: src/Pages/OrderReview.jsx, src/utils/invoiceUtils.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 504.8899999999999864 Td
+(25. [Internal] POST <baseURL>/invoice/ecommerce/ecom_return) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 488.8899999999999864 Td
+(Used in: src/Pages/ReturnOrder.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 471.8899999999999864 Td
+(26. [Internal] POST <baseURL>/item_department/filtered_list_by_key) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 455.8899999999999864 Td
+(Used in: src/components/Categories.jsx, src/components/NewArrivals.jsx, src/components/ShopByCategory.jsx,) Tj
+T* (src/components/SidebarFilters.jsx, src/components/secondNavbar.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 425.8899999999999864 Td
+(27. [Internal] POST <baseURL>/item_department/get_by_id) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 409.8899999999999864 Td
+(Used in: src/components/ShopByCategory.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 392.8899999999999864 Td
+(28. [Internal] POST <baseURL>/item_location_master/filter_list_by_stock_price) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 376.8899999999999864 Td
+(Used in: src/Pages/ScanProduct.jsx, src/Pages/Shop.jsx, src/components/ShopByCategory.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 359.8899999999999864 Td
+(29. [Internal] POST <baseURL>/item_location_master/filtered_list) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 343.8899999999999864 Td
+(Used in: src/Pages/CancelOrder.jsx, src/Pages/ReturnOrder.jsx, src/components/ItemList.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 326.8899999999999864 Td
+(30. [Internal] GET <baseURL>/order-action-reason-mapping/findAll) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 310.8899999999999864 Td
+(Used in: src/Pages/CancelOrder.jsx, src/Pages/ReturnOrder.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 293.8899999999999864 Td
+(31. [Internal] GET <baseURL>/order-status/list) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 277.8899999999999864 Td
+(Used in: src/Pages/Accounts.jsx, src/Pages/DeliveryTracking.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 260.8899999999999864 Td
+(32. [Internal] POST <baseURL>/order/ecommerce_orders/by-customer) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 244.8899999999999864 Td
+(Used in: src/Pages/Accounts.jsx, src/Pages/OrderSuccess.jsx, src/components/SendOrderStatusMail.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 227.8899999999999864 Td
+(33. [Internal] POST <baseURL>/order/ecommerce_orders/details) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 211.8899999999999864 Td
+(Used in: src/Pages/DeliveryTracking.jsx, src/Pages/OrderReview.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 194.8899999999999864 Td
+(34. [Internal] POST <baseURL>/order/ecommerce/order-add) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 178.8899999999999864 Td
+(Used in: src/Pages/Cart.jsx, src/Pages/PayUOrderHandlerPOS.jsx, src/Pages/Payment.jsx,) Tj
+T* (src/Pages/PaymentTest.jsx, src/components/Payments/PayUOrderHandler.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 148.8899999999999864 Td
+(35. [Internal] POST <baseURL>/order/ecommerce/order-cancel) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 132.8899999999999864 Td
+(Used in: src/Pages/CancelOrder.jsx) Tj
+ET
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 4103
+>>
+stream
+0.200025 w
+0 G
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 801.8899999999999864 Td
+(36. [Internal] POST <baseURL>/order/ecommerce/order-exchange) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 785.8899999999999864 Td
+(Used in: src/Pages/ExchangeOrder.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 768.8899999999999864 Td
+(37. [Internal] GET <baseURL>/order/ecommerce/pending/${txnid}) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 752.8899999999999864 Td
+(Used in: src/Pages/PayUOrderHandlerPOS.jsx, src/components/Payments/PayUOrderHandler.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 735.8899999999999864 Td
+(38. [Internal] POST <baseURL>/order/ecommerce/pending/create) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 719.8899999999999864 Td
+(Used in: src/Pages/Cart.jsx, src/Pages/Checkout.jsx, src/Pages/PaymentTest.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 702.8899999999999864 Td
+(39. [Internal] POST <baseURL>/payment/generate-hash) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 686.8899999999999864 Td
+(Used in: src/components/Payments/payU.js) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 669.8899999999999864 Td
+(40. [Internal] GET <baseURL>/payment/payu-details/${txnid}) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 653.8899999999999864 Td
+(Used in: src/Pages/PayUOrderHandlerPOS.jsx, src/components/Payments/PayUOrderHandler.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 636.8899999999999864 Td
+(41. [Internal] GET <baseURL>/products/${productId}) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 620.8899999999999864 Td
+(Used in: src/Pages/ScanProduct.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 603.8899999999999864 Td
+(42. [Internal] POST <baseURL>/razorpay/create-order) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 587.8899999999999864 Td
+(Used in: src/Pages/Cart.jsx, src/components/Payments/RazorpayPayment.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 570.8899999999999864 Td
+(43. [Internal] POST <baseURL>/razorpay/verify-payment) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 554.8899999999999864 Td
+(Used in: src/Pages/Cart.jsx, src/components/Payments/RazorpayPayment.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 537.8899999999999864 Td
+(44. [Internal] POST <baseURL>/shipping_address/create) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 521.8899999999999864 Td
+(Used in: src/Pages/Cart.jsx, src/components/ShippingAddress.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 504.8899999999999864 Td
+(45. [Internal] DELETE <baseURL>/shipping_address/delete/<baseURL>) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 488.8899999999999864 Td
+(Used in: src/components/ShippingAddress.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 471.8899999999999864 Td
+(46. [Internal] GET <baseURL>/shipping_address/list/<baseURL>) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 455.8899999999999864 Td
+(Used in: src/Pages/Accounts.jsx, src/Pages/Cart.jsx, src/utils/invoiceUtils.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 438.8899999999999864 Td
+(47. [Internal] GET <baseURL>/shipping_address/list/${user.id}) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 422.8899999999999864 Td
+(Used in: src/Pages/Checkout.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 405.8899999999999864 Td
+(48. [Internal] POST <baseURL>/shipping_address/update/<baseURL>) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 389.8899999999999864 Td
+(Used in: src/components/ShippingAddress.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 372.8899999999999864 Td
+(49. [Internal] POST <baseURL>/size_master/list) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 356.8899999999999864 Td
+(Used in: src/Pages/Shop.jsx, src/components/ShopByCategory.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 339.8899999999999864 Td
+(50. [Internal] POST <baseURL>/sub_family_master/by_id_list) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 323.8899999999999864 Td
+(Used in: src/components/Nav.jsx, src/components/SidebarFilters.jsx) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0 g
+40. 306.8899999999999864 Td
+(51. [Internal] POST <baseURL>/sub_family_master/list) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0 g
+52. 290.8899999999999864 Td
+(Used in: src/components/NewArrivals.jsx, src/components/Products.jsx) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R ]
+/Count 3
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+19 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+20 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+21 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+22 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 9 0 R
+/F2 10 0 R
+/F3 11 0 R
+/F4 12 0 R
+/F5 13 0 R
+/F6 14 0 R
+/F7 15 0 R
+/F8 16 0 R
+/F9 17 0 R
+/F10 18 0 R
+/F11 19 0 R
+/F12 20 0 R
+/F13 21 0 R
+/F14 22 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+23 0 obj
+<<
+/Producer (jsPDF 4.0.0)
+/CreationDate (D:20260429203526+05'30')
+>>
+endobj
+24 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 25
+0000000000 65535 f 
+0000014745 00000 n 
+0000016578 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000004969 00000 n 
+0000005106 00000 n 
+0000010453 00000 n 
+0000010590 00000 n 
+0000014814 00000 n 
+0000014939 00000 n 
+0000015070 00000 n 
+0000015204 00000 n 
+0000015342 00000 n 
+0000015466 00000 n 
+0000015595 00000 n 
+0000015727 00000 n 
+0000015863 00000 n 
+0000015991 00000 n 
+0000016118 00000 n 
+0000016247 00000 n 
+0000016380 00000 n 
+0000016482 00000 n 
+0000016830 00000 n 
+0000016916 00000 n 
+trailer
+<<
+/Size 25
+/Root 24 0 R
+/Info 23 0 R
+/ID [ <D4FD2F61C732F43BBA6E5105314984FD> <D4FD2F61C732F43BBA6E5105314984FD> ]
+>>
+startxref
+17020
+%%EOF

@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# Redirect all requests to the Node.js application running on port 3000
+RewriteCond %{REQUEST_URI} !^/your-node-app/.*$
+RewriteRule ^(.*)$ /your-node-app/$1 [L]
+
+# Proxy requests to the Node.js application
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^your-node-app/(.*)$ https://api.cph4.ch:5500/$1 [P,L]

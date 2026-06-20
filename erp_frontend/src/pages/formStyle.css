@@ -1,0 +1,36 @@
+/* .MuiInputBase-root {
+  width: 250px;
+  height: 40px;
+}
+
+.MuiAutocomplete-root .MuiInputBase-root {
+  width: 250px;
+  height: 40px;
+}
+
+.MuiFormControl-root {
+  margin-bottom: 8;
+}
+.order-table {
+  width: 100px;
+}
+.custom-input {
+  height: 30px !important;
+  font-size: 12px !important;
+  width: 50% !important;
+}
+ */
+/* formStyles.css */
+
+.small-input {
+  width: 250px !important;
+  height: 40px !important;
+}
+
+.small-autocomplete {
+  width: 250px !important;
+  height: 40px !important;
+}
+.MuiFormControl-root {
+  margin-bottom: 8;
+}

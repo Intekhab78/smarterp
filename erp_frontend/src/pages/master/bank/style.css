@@ -1,0 +1,23 @@
+.icon-round {
+  height: 1em !important;
+  text-align: center !important;
+  font-size: 4.25rem !important;
+  color: red !important;
+  display: block !important;
+  width: auto !important;
+}
+.dialog-content {
+  border-top: none !important;
+  border-bottom: none !important;
+  overflow-y: unset !important;
+  padding: 20px 10px !important;
+}
+.dialogbox {
+  padding: 10px !important;
+}
+.Dialog-Actions {
+  padding: 4px !important;
+}
+.bulk-button {
+  padding: 5px 22px !important;
+}
