@@ -1,9 +1,5 @@
 import axios from "axios";
-
-// const baseURL = "http://localhost:5610/api";
-// const baseURL = "https://api.jtserp.cloud/api/";
-// const baseURL = "https://api.islamicbookzone.com/api";
-const baseURL = "https://smartapi.jtsonline.shop/api";
+import constantApi from "./constantApi";
 
 export const axios_get = async (is_token = false, endPoint, params = "") => {
     const headers = {
@@ -16,7 +12,7 @@ export const axios_get = async (is_token = false, endPoint, params = "") => {
     }
 
     try {
-        const response = await axios.get(baseURL + endPoint, { headers });
+        const response = await axios.get(constantApi.baseUrl + endPoint, { headers });
         return response.data;
     } catch (error) {
         console.error("GET ERROR:", error);
@@ -35,7 +31,7 @@ export const axios_post = async (is_token = false, endPoint, params = {}) => {
     }
 
     try {
-        const response = await axios.post(baseURL + endPoint, params, { headers });
+        const response = await axios.post(constantApi.baseUrl + endPoint, params, { headers });
         return response.data;
     } catch (error) {
         console.error("POST ERROR:", error);

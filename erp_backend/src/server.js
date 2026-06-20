@@ -1,5 +1,7 @@
-const express = require("express");
 const dotenv = require("dotenv");
+dotenv.config();
+
+const express = require("express");
 const cors = require("cors");
 const path = require("path");
 const router = require("./routes/index.js");
@@ -11,10 +13,6 @@ const cookieParser = require("cookie-parser");
 const http = require("http");
 const { Server } = require("socket.io");
 const { currentAd } = require("./controller/video.controller");
-
-
-
-dotenv.config();
 
 const app = express();
 const port = process.env.PORT || 5610;
