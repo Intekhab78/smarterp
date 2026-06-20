@@ -39,7 +39,7 @@ const checkLocalBackend = async () => {
   }
 };
 
-checkLocalBackend();
+await checkLocalBackend();
 
 export default constantApi;
 // pass  276403
